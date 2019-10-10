@@ -1,0 +1,35 @@
+{
+  "name": "shapes",
+  "version": "1.0.0",
+  "description": "Wordpress theme for samhatfield.me",
+  "main": "js/blocks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env BABEL_ENV=default NODE_ENV=production webpack",
+    "dev": "cross-env BABEL_ENV=default webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/sehqlr/samhatfield.me.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "author": "Sam Hatfield <hey@samhatfield.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/sehqlr/samhatfield.me/issues"
+  },
+  "homepage": "https://gitlab.com/sehqlr/samhatfield.me#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^6.0.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
